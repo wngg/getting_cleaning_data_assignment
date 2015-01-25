@@ -35,16 +35,17 @@ Creating tidy data
   
 Variables:
 ==============================
-- prefix 't' is to denote time, signals captured at frequency of 50Hz
-- prefix 'f' is to indicate frequency domain signals after applying Fast Fourier Transform
-- Body/Gravity is signal classification
-- Acc is signal data obtained from accelerometer, in unit g
-- Gyro is signal data obtained from gyroscope, in unit radians/second
-- Jerk is the time derivation from signal
-- Mag is the signal magnitude
-- XYZ is used to denote 3-axial signals in the X, Y and Z directions
-- mean(): Mean value
-- std(): Standard deviation
+- Comments
+	- prefix 't' is to denote time, signals captured at frequency of 50Hz
+	- prefix 'f' is to indicate frequency domain signals after applying Fast Fourier Transform
+	- Body/Gravity is signal classification
+	- Acc is signal data obtained from accelerometer, in unit g
+	- Gyro is signal data obtained from gyroscope, in unit radians/second
+	- Jerk is the time derivation from signal
+	- Mag is the signal magnitude
+	- XYZ is used to denote 3-axial signals in the X, Y and Z directions
+	- mean(): Mean value
+	- std(): Standard deviation
 
 - 1) Activity
   - 1 WALKING
